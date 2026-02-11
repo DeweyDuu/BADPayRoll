@@ -67,7 +67,7 @@ class EmployeeTest {
 		double[] Expected = {645.0,900.0,1000.0};
 		double[] actual = paySys.PayrollPayEmployees();
 		
-		assertEquals(Expected, actual);
+		assertArrayEquals(Expected, actual);
 
 		
 	}
