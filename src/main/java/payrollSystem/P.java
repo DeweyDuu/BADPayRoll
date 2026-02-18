@@ -33,7 +33,7 @@ public class P
 	/**
 	 * @return the employee_list
 	 */
-	public List<P> getel() {
+	public List<E> getel() {
 		return el;
 	}
 

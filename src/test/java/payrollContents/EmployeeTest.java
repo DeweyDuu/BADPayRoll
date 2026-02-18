@@ -1,6 +1,5 @@
 package payrollContents;
 
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -52,7 +51,7 @@ class EmployeeTest {
 	@Test
 	void payrollTest()
 	{
-		assertTrue(paySys.getEmployee_list().isEmpty());
+		assertTrue(paySys.getel().isEmpty());
 		
 		pamHour.sethr(42);
 		jimCont.sethr(45);
