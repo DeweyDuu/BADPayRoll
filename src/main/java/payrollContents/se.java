@@ -1,15 +1,1 @@
-package payrollContents;
-
-public class SalaryEmployee extends Employee {
-
-	public SalaryEmployee(String employeeName, double employeeHourlyRate) {
-		super(employeeName, employeeHourlyRate);
-	}
-	
-	@Override
-    public double payEmployee() 
-	{
-		return employeeHourlyRate*40;
-		
-	}
-}
+package payrollContents;public class se extends E {public se(String n, double hr) {super(n, hr);}@Override public double pe() {return pr*40;}}
